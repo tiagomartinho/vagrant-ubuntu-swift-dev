@@ -19,6 +19,6 @@ It will:
 # Usage Guide
 
 ```
-git clone https://github.com/IBM-Swift/vagrant-ubuntu-swift-dev.git
-vagrant up
+$ git clone https://github.com/IBM-Swift/vagrant-ubuntu-swift-dev.git
+$ vagrant up
 ```
