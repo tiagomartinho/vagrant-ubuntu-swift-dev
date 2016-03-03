@@ -13,8 +13,8 @@ It will:
 
 # Prerequisites
 1. [git](https://git-scm.com)
-2. [Vagrant](https://www.vagrantup.com/downloads.html)
-3. [Virtualbox](https://www.virtualbox.org/wiki/Downloads)
+2. [Vagrant](https://www.vagrantup.com)
+3. [Virtualbox](https://www.virtualbox.org)
 
 # Usage Guide
 
