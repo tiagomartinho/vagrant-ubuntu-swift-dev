@@ -20,5 +20,6 @@ It will:
 
 ```
 $ git clone https://github.com/IBM-Swift/vagrant-ubuntu-swift-dev.git
+$ cd vagrant-ubuntu-swift-dev.git
 $ vagrant up
 ```
