@@ -1,6 +1,6 @@
 # vagrant-ubuntu-swift-dev
 
-> Note: this repository is designed to help you *contribute to the Swift project itself*. If you just want to develop in Swift, use [Apple's snapshots](https://swift.org/download/)
+> Note: this repository is designed to help you *contribute to the Swift project itself*. If you just want to develop in Swift, use [Apple's snapshots](https://swift.org/download/).
 
 This repository provides a `Vagrantfile` which will automatically provision and configure an Ubuntu 15.10 Swift development environment.
 
