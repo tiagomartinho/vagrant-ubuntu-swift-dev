@@ -23,3 +23,5 @@ $ git clone https://github.com/IBM-Swift/vagrant-ubuntu-swift-dev.git
 $ cd vagrant-ubuntu-swift-dev
 $ vagrant up
 ```
+
+Once your VM has been provisioned, you can connect to it using the `vagrant ssh` command.
