@@ -42,6 +42,14 @@ Vagrant.configure(2) do |config|
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libpython-dev
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libncurses5-dev
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y pkg-config
+    
+    echo "Installing libdispatch prerequisites..."
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y autoconf
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libtool
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y pkg-config
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libblocksruntime-dev
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libkqueue-dev
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libbsd-dev
 
     # Create development directory
     cd /vagrant && mkdir -p swift-dev && cd swift-dev
