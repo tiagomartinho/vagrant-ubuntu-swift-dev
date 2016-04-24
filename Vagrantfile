@@ -51,6 +51,9 @@ Vagrant.configure(2) do |config|
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libkqueue-dev
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libbsd-dev
 
+    echo "Installing Sphinx..."
+    sudo easy_install -U Sphinx==1.3.4
+
     # Create development directory
     cd /vagrant && mkdir -p swift-dev && cd swift-dev
 
