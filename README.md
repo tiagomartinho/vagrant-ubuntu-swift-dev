@@ -2,11 +2,11 @@
 
 > Note: this repository is designed to help you *contribute to the Swift project itself*. If you just want to develop in Swift, use [Apple's snapshots](https://swift.org/download/).
 
-This repository provides a `Vagrantfile` which will automatically provision and configure an Ubuntu 15.10 Swift development environment.
+This repository provides a `Vagrantfile` which will automatically provision and configure an Ubuntu 14.04 Swift development environment.
 
 It will:
 
-1. Install an Ubuntu 15.10 virtual machine
+1. Install an Ubuntu 14.04 virtual machine
 2. Install development prerequisites
 3. Clone the latest Swift source code from GitHub
 4. Clone all dependent source repositories
