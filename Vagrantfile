@@ -42,6 +42,7 @@ Vagrant.configure(2) do |config|
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libpython-dev
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y libncurses5-dev
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y pkg-config
+    sudo DEBIAN_FRONTEND=noninteractive apt-get install -y python-setuptools
     
     echo "Installing libdispatch prerequisites..."
     sudo DEBIAN_FRONTEND=noninteractive apt-get install -y autoconf
