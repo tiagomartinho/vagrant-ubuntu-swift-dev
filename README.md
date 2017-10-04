@@ -6,7 +6,7 @@ This repository provides a `Vagrantfile` which will automatically provision and 
 
 It will:
 
-1. Install an Ubuntu 14.04 virtual machine
+1. Install an Ubuntu 16.04 virtual machine
 2. Install development prerequisites
 3. Clone the latest Swift source code from GitHub
 4. Clone all dependent source repositories
@@ -25,3 +25,7 @@ $ vagrant up
 ```
 
 Once your VM has been provisioned, you can connect to it using the `vagrant ssh` command.
+
+# Building Swift
+
+See [Building Swift](https://github.com/apple/swift#building-swift).
